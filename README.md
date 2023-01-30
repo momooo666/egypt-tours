@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css-stylesheet/styleesheet.css" type="text/css"/>
         <!--stylesheet internal-->
         <style type="text/css">
-        @font-face{
+               @font-face{
     src: url("../fonts/Sen/Sen-Bold.ttf");
     font-family: "mom";
     font-weight: 600;
@@ -123,7 +123,7 @@ a img{
 #intro{
     width: 100%;
     height: 500px;
-    background-image: url("../images/giza-2.jpg");
+    background-image: url("../egypt-tours/images/giza-2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -146,7 +146,7 @@ form{
     font-family: "mom", sans-serif;
     font-weight: 600;
     font-size: 1.2em;
-    background-image: url("../images/icons/search-1.png");
+    background-image: url("../egypt-tours/images/icons/search-1.png");
     background-repeat: no-repeat;
     background-position: 15px 15px;
     color: black;
@@ -296,7 +296,7 @@ h2{
 #cairo{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/cairo.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/cairo.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -305,7 +305,7 @@ h2{
 #giza{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/giza.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/giza.jpg");
     background-repeat: no-repeat;
     background-size:cover;
    
@@ -315,7 +315,7 @@ h2{
 #alexandria{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/alexandria-1.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/alexandria-1.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -324,7 +324,7 @@ h2{
     width: 25%;
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/luxor-3.jpg");
+    background-image: url("../../egypt-tours/images/paragrap-images/luxor-3.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -333,7 +333,7 @@ h2{
 #aswan{
     max-width: 500px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/aswan-2.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/aswan-2.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -342,7 +342,7 @@ h2{
 #hurghada{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/hurghada.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/hurghada.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -351,7 +351,7 @@ h2{
 #sharm{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/sharm.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/sharm.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -360,7 +360,7 @@ h2{
 #dahab{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/dahab.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/dahab.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -369,7 +369,7 @@ h2{
 #marsa{
     max-width: 400px;
     min-width: 250px;
-    background-image: url("../images/paragrap-images/marsaalam.jpg");
+    background-image: url("../egypt-tours/images/paragrap-images/marsaalam.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -382,7 +382,7 @@ h2{
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
-    background-image: url("../images/sea.jpg");
+    background-image: url("../egypt-tours/images/sea.jpg");
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-color: rgba(151, 192, 255, 0.762);
@@ -520,12 +520,12 @@ fieldset{
     color: rgb(175, 177, 179);
 }
 #user input{
-    background-image: url("../images/icons/mail.png");
+    background-image: url("../egypt-tours/images/icons/mail.png");
     background-repeat: no-repeat;
     background-position:  left;
 }
 #psw input{
-    background-image: url("../images/icons/lock.png");
+    background-image: url("../egypt-tours/images/icons/lock.png");
     background-repeat: no-repeat;
     background-position:  left;
 }
@@ -653,7 +653,7 @@ fieldset{
         max-width: 500px;
         min-width: 450px;
         height: 500px;
-        background-image: url("../images/giza-2.jpg");
+        background-image: url("../egypt-tours/images/giza-2.jpg");
         background-repeat: no-repeat;
         background-size:cover;
         
@@ -858,7 +858,6 @@ fieldset{
             min-width: 10px;
         }
 }
-
 
 
 
