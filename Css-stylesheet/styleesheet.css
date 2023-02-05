@@ -455,31 +455,34 @@ select{
 }
 /* login form*/
 #log-in-1{
+    
     font-family: "mom", sans-serif;
     font-weight: 600;
     margin: 50px;
     display: flex;
     flex-direction: column;
-    align-content:space-between;
+    align-content:flex-start;
    
 }
 #log-in-1 div{
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px;
+    
 }
 fieldset{
     width: 80%;
-    max-width: 500px;
-    min-width: 400px;
     margin: 5px auto;
     box-sizing: border-box;
     border-radius: 20px;
     background-image:linear-gradient(to bottom, rgb(46, 5, 123), rgb(122, 70, 255)) ;
 }
+#intro-1{
+    width: 70%;
+    
+}
 #log-in-1 input{
-    width: 30%;
-    max-width: 500px;
-    min-width: 400px;
+    width: 60%;
+    height: 60px;
     padding: 10px 10px 10px 50px;
     box-sizing: border-box;
     border-top:  transparent ;
@@ -511,21 +514,32 @@ fieldset{
     background-repeat: no-repeat;
     background-position:  left;
 }
+
 #rem-1{
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:flex-start;
     color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    
+    
 }
 #rem-1 a{
     color: rgb(255, 255, 255);
 }
 #rem-1 input{
-    align-self: flex-start;
-    width: 30px;
-    max-width: 20px;
-    min-width: 10px;
+    align-self:center;
+    height: 10px;
+    width: 20px;
+    max-width: 10px;
+    min-width: 5px;
+    box-sizing: border-box;
+}
+#rem-1 label{
+    
+    text-align: left;
 }
 
 #submit-1 input{
@@ -546,12 +560,16 @@ fieldset{
     margin: 50px;
     display: flex;
     flex-direction: column;
-    align-content:space-between;
+    align-content:flex-start;
+    
+}
+#sign-up-1 div{
+    margin: 10px auto;
+    padding: 10px;
 }
 #sign-up-1 input{
-    width: 30%;
-    max-width: 500px;
-    min-width: 400px;
+    width: 60%;
+    height: 60px;
     padding: 10px 10px 10px 50px;
     box-sizing: border-box;
     border-top:  transparent ;
@@ -562,10 +580,7 @@ fieldset{
     font-size: 1.2;
     font-weight: bold;
 }
-#sign-up-1 div{
-    margin: 10px;
-    padding: 10px;
-}
+
 #sign-up-1 h2{
     margin: 0px;
     padding: 5px;
@@ -574,21 +589,28 @@ fieldset{
     color: rgb(7, 154, 253);
 }
 #policy-1{
+    width: 60%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:flex-start;
     color: rgb(255, 255, 255);
+    box-sizing: border-box;
 }
 #policy-1 input{
     align-self:flex-start;
+    height: 10px;
     width: 30px;
     max-width: 20px;
     min-width: 10px;
+    box-sizing: border-box;
 }
 #policy-1 label{
     text-align: left;
-    margin-left:10px ;
+    margin-left: 10px;
+}
+#submit-2{
+    text-align: center;
 }
 #submit-2 input{
     text-align: center;
@@ -602,6 +624,7 @@ fieldset{
 }
 /* responsive for mobile 0-500px*/
 @media only screen and (max-width: 500px){
+   
     
     #wish,#cart, #log-in, #help{
         display: none;
@@ -622,18 +645,18 @@ fieldset{
         min-width: 200px;
     }
     .fig-1{
-        justify-content: space-around;
+        justify-content:space-around;
     }
     .fig-2{
-        justify-content: space-around;
+        justify-content:space-around;
     }
     .fig-3{
-        justify-content: space-around;
+        justify-content:space-around;
     }
     #intro{
         width: 100%;
         max-width: 500px;
-        min-width: 450px;
+        min-width: 300px;
         height: 500px;
         background-image: url("../images/giza-2.jpg");
         background-repeat: no-repeat;
@@ -641,6 +664,7 @@ fieldset{
         
        
     }
+   
     #search-1{
         max-width: 300px;
         min-width: 200px;
@@ -655,19 +679,44 @@ fieldset{
     .activites ul{
         display: none;
     }
-    #footer{
-        width: 100%;
-        max-width: 500px;
-        min-width: 300px;
-        justify-content: space-between;
-    }
+   
     #forms select{
         
         max-width: 300px;
         min-width: 200px;
     }
+    #log-in-1{
+        
+        max-width: 500px;
+        min-width: 250px;
+    }
+    #sign-up-1{
+       
+        max-width: 500px;
+        min-width: 250px;
+    }
+    fieldset{
+        width: 100%;
+    }
+    #intro-1{
+        width: 60%;
+        
+    }
+    #log-in-1 input{
+        width: 100%;
+
+    }
+    #rem-1{
+        width: 100%;
+    }
+    #sign-up-1 input{
+        width: 100%;
+        padding-left: 10px;
+    }
     
-    
+    #policy-1{
+        width: 100%;
+    }
     
     
 }
@@ -696,7 +745,37 @@ fieldset{
     .trips{
         margin: 20px auto;
     }
+    #log-in-1 h2 {
+        font-size: 1.3em;
+    }
+
+    #log-in-1 p {
+        font-size: 1.2em;
+    }
     
+   
+    #rem-1 input {
+        width: 20px;
+        max-width: 15px;
+        min-width: 10px;
+    }
+    #rem-1{
+        justify-content: space-around;
+    }
+    #sign-up-1 h2{
+        font-size: 1.3em;
+    }
+    #sign-up-1 label{
+
+       font-size: 1.2em;
+        
+    }
+   
+    #policy-1 input{
+        width: 20px;
+        max-width: 15px;
+        min-width: 10px;
+    }
    
 }
 @media only screen and (min-width: 800px){
@@ -752,94 +831,5 @@ fieldset{
         max-width: 600px;
         min-width: 200px;
     }
-    #log-in-1 h2{
-        font-size: 1.3em;
-    }
-    #log-in-1 p{
-        font-size: 1.2em;
-    }
-    fieldset{
-        width: 100%;
-        max-width: 500px;
-        min-width: 300px;
-        
-    }
-    #log-in-1 input{
-       
-        max-width: 300px;
-        min-width: 230px;
-    }
-    #rem-1 input{
-        
-        width: 20px;
-        max-width: 10px;
-        min-width: 5px;
-    
-    }
-    #sign-up-1 h2{
-        font-size: 1.3em;
-    }
-    #sign-up-1 label{
-        font-size: 1.2em;
-        
-    }
-    #sign-up-1 input{
-        max-width: 300px;
-        min-width: 230px;
-    }
-    #policy-1 input{
-        width: 30px;
-        max-width: 20px;
-        min-width: 10px;
-    }
+   
 }
-@media only screen and (width: 540px){
-    body{
-        font-size: 10px;
-    }
-    #log-in-1 h2 {
-            font-size: 1.3em;
-        }
-    
-        #log-in-1 p {
-            font-size: 1.2em;
-        }
-    
-        fieldset {
-            width: 100%;
-    
-        }
-    
-        #log-in-1 input {
-            max-width: 400px;
-            min-width: 300px;
-        }
-    
-        #rem-1 input {
-            width: 20px;
-            max-width: 15px;
-            min-width: 10px;
-        }
-        #rem-1{
-            justify-content: space-around;
-        }
-        #sign-up-1 h2{
-            font-size: 1.3em;
-        }
-        #sign-up-1 label{
-            font-size: 1.2em;
-            
-        }
-        #sign-up-1 input{
-            max-width: 400px;
-            min-width: 300px;
-        }
-        #policy-1 input{
-            width: 20px;
-            max-width: 15px;
-            min-width: 10px;
-        }
-}
-
-
-
